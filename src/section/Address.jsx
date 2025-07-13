@@ -19,9 +19,9 @@ export default function Address() {
 
         {/* Адрес */}
         <p className="text-base sm:text-lg text-gray-800 leading-relaxed break-words px-2">
-          Еңбекшіқазақ ауданы, <br />
-          Есік қаласы, Жалын бау-бақша ұжымы, <br />
-          <span className="font-semibold">«Paris Soul»</span> мейрамханасы
+          Талдықорған қаласы, <br />
+          Жібек жолы 2 <br />
+          <span className="font-semibold">«Aqtilek»</span> мейрамханасы
         </p>
 
         {/* Подсказка */}
