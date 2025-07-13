@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import localFont from "next/font/local";
 
 const WeddingFont = localFont({
-  src: "../fonts/GreatVibes-Regular.ttf",
+  src: "../../fonts/great-vibes-2.ttf", // проверь путь!
   variable: "--font-wedding",
 });
 
@@ -19,7 +19,7 @@ export default function Main() {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
         <source src="/video.mp4" type="video/mp4" />
         Ваш браузер не поддерживает видео.
@@ -39,7 +39,7 @@ export default function Main() {
           className="text-5xl sm:text-6xl font-semibold tracking-wide"
           style={{ fontFamily: "var(--font-wedding)" }}
         >
-          Айдын & Гаухарx
+          Айдын & Гаухар
         </h1>
         <p className="text-xl font-light">12 августа 2025</p>
       </motion.div>
