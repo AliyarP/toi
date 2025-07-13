@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import localFont from "next/font/local";
 
 const WeddingFont = localFont({
-  src: "/fonts/great-vibes-2.ttf", // проверь путь!
+  src: "../fonts/great-vibes-2.ttf", // проверь путь!
   variable: "--font-wedding",
 });
 
