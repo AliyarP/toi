@@ -24,3 +24,25 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Удаляем фон у всех обычных ячеек */
+.react-calendar__tile {
+  background: transparent !important;
+  color: #333 !important;
+  border-radius: 0 !important;
+}
+
+/* Оставляем только метку для выбранной даты */
+.react-calendar__tile--active {
+  background: #ec4899 !important; /* pink-500 */
+  color: white !important;
+  border-radius: 9999px !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto !important;
+  padding: 0 !important;
+}
+
