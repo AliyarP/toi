@@ -31,7 +31,7 @@ export default function Main() {
         <h1 className="text-4xl sm:text-3xl font-bold tracking-tight">
           Айдын & Гаухар
         </h1>
-        <p className="text-lg">тут время</p>
+        <p className="text-lg">Время</p>
       </motion.div>
     </div>
   );
