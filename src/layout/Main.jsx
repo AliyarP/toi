@@ -19,7 +19,7 @@ export default function Main() {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       >
         <source src="/video.mp4" type="video/mp4" />
         Ваш браузер не поддерживает видео.
