@@ -39,7 +39,7 @@ export default function Main() {
           className="text-5xl sm:text-6xl font-semibold tracking-wide"
           style={{ fontFamily: "var(--font-wedding)" }}
         >
-          Айдын & Гаухар
+          Айдын & Гаухарx
         </h1>
         <p className="text-xl font-light">12 августа 2025</p>
       </motion.div>
