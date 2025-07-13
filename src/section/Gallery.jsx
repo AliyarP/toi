@@ -18,7 +18,7 @@ export default function Gallery() {
   return (
     <div className="p-4 md:p-10 bg-gradient-to-br from-white to-neutral-100 ">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800">
-        🌟 Галерея
+        суреттер
       </h2>
       <p className="text-center text-gray-500 mb-8 text-lg">
         Біздің ең жақсы сәттерімізбен бөлісеміз!
